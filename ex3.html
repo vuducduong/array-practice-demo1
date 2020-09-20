@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex3</title>
+</head>
+<body>
+<script>
+    let nbL = [1, 2, 3, 4, 6, 7, 4, 24,];
+    let max = nbL[0];
+    let sum = 0;
+    for (let i = 0; i < nbL.length; i++) {
+        if (max < nbL[i]) {
+            max = nbL[i];
+        }
+        sum = sum + nbL[i];
+    }
+    console.log('max: ' + max);
+    average = sum / (nbL.length);
+    console.log('average : ' + average);
+</script>
+</body>
+</html>
